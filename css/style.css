@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 5% 6%;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #05042cec;
+    background-image: url(../img/fon.jpg);
+    background-attachment: fixed;
+    font-size: 18px;
+}
+.header__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 20px;
+    color: #05042cec;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 25px;
+    text-align: center;
+}
+
+.nav a:hover{
+    color: #413bd3ec;
+}
+
+.main{
+    margin-bottom: 25px;
+}
+
+.main h1{
+    margin-bottom: 25px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.main p{
+    text-align: justify;
+}
+
+.footer{
+    text-align: center;
+}
+.products_items{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+}
+
+.products_items li{
+    width: calc(33.3% - 8% - 8%);
+    padding: 4%;
+    margin: 4%;
+    background-color:white;
+
+}
+.product__img img{
+    height: 200px;
+    max-width: 100%;
+}
+.product__title{
+    margin: 30px 0;
+    height: 60px;
+}
+
+.product__title a{
+    text-decoration: none;
+    color:#05042cec;;
+    font-weight: bold;
+}
+.product__btn button,
+#prev,
+#prev__basket{
+    border: 0;
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: #05042cec;
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 160px;
+}
+.product__btn button:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+#prev:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+#prev__basket:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.product_info{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.product_info img{
+    width: 300px;
+    height: 300px;
+    margin-right: 50px;
+}
+.btn__prev,
+.prev_bascet_btn{
+    text-align: center;
+}
+.basket__total{
+    display: flex;
+    justify-content: space-between;
+}
+#total{
+    text-align: right;
+}
